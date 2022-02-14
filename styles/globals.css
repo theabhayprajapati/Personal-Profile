@@ -6,3 +6,17 @@
 body {
     background-color: #E8E9EF
 }
+
+
+@layer components {
+    .btn-blue {
+      @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+    .projecttitle {
+       @apply grid place-items-center p-2
+    }
+    .nametitle {
+        @apply hover:scale-95 transition duration-150 ease-in-out transform  cursor-pointer
+    }
+  }
+  
